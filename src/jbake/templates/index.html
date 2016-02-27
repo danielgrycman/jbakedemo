@@ -1,0 +1,15 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-4.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="header.html::head"/>
+<body onload="prettyPrint()">
+    <div id="wrap">
+        <div th:replace="menu.html::menu"/>
+        <div class="container">
+            <div class="page-header">
+                <h1>Project Documentation</h1>
+            </div>
+        </div>
+    </div>
+    <div th:replace="footer.html::footer"/>
+</body>
+</html>
