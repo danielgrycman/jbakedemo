@@ -1,0 +1,25 @@
+= Creating a grid
+Daniel Grycman <daniel.grycman@bilsteingroup.com>
+:icons: font
+:jbake-type: page
+:jbake-status: published
+
+You want to create a grid to set the basic layout of the page.
+
+At first we need a xml with data.
+
+[source,xml]
+----
+include::../../resources/data/grid_data.xml[]
+----
+
+Now combine the data with a layout xml.
+
+[source,xml]
+----
+include::../../resources/layouts/grid_layout.xml[]
+----
+
+To see the result
+
+image::images/thumbnail_grid.png[]

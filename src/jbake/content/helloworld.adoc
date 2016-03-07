@@ -1,0 +1,26 @@
+= Hello World
+Daniel Grycman <daniel.grycman@bilsteingroup.com>
+:icons: font
+:jbake-type: page
+:jbake-status: published
+
+
+It's good way to start with a "Hello World" to get in touch with the basics of speedata publisher.
+
+At first we need a xml with data.
+
+[source,xml]
+----
+include::../../resources/data/helloworld_data.xml[]
+----
+
+Now combine the data with a layout xml.
+
+[source,xml]
+----
+include::../../resources/layouts/helloworld_layout.xml[]
+----
+
+To see the result
+
+image::images/thumbnail_helloworld.png[]
