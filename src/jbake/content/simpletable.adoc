@@ -1,27 +1,26 @@
-= Hello World
+= Creating a simple table
 Daniel Grycman <daniel.grycman@bilsteingroup.com>
 :icons: font
 :jbake-type: page
 :jbake-status: published
 :includedir: ../../resources
 
-
-It's good way to start with a "Hello World" to get in touch with the basics of speedata publisher.
+You want to create a simple table
 
 At first we need a xml with data.
 
 [source,xml]
 ----
-include::{includedir}/data/helloworld_data.xml[]
+include::{includedir}/data/simpletable_data.xml[]
 ----
 
 Now combine the data with a layout xml.
 
 [source,xml]
 ----
-include::{includedir}/layouts/helloworld_layout.xml[]
+include::{includedir}/layouts/simpletable_layout.xml[]
 ----
 
 To see the result
 
-image::images/thumbnail_helloworld.png[]
+image::images/thumbnail_simpletable.png[link="pdfs/simpletable.pdf"]
